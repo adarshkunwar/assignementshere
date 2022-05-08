@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(0, 0, 0, .1);
+}
+
+nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+nav button{
+    margin-left: 15px;
+    background-color: #00c835;
+    border: none;
+    padding: 10px 40px;
+    color: #fff; 
+}
+
+#container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+    height: 250px;
+    margin-left: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    /* background-color: grey; */
+}
+
+.card .top{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+
+
+.card .top img{
+    width: 80px;
+    border-radius: 100%;  
+}
+
+.card .top .time{
+    color: rgba(0, 0, 0, .4);
+    font-size: 15px;
+}
+
+.card .info{
+    margin-left: 15px;
+    
+}
+
+.card .info .company{
+    color: rgba(0, 0, 0, .4);
+    font-size: 20px;
+}
+
+.card .info .software{
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.card .info p{
+    margin-top: 5px;
+    font-size: 15px;
+}
