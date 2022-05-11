@@ -1,0 +1,41 @@
+body{
+    background-color: rgba(0, 0, 256, .1);
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 300px 300px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 8px rgba(0, 0, 0, .5);
+}
+
+#start{
+    margin-top: -50px;
+    font-size: 30px;
+}
+
+#container #info h1{
+    font-size: 60px;
+}
+
+#container #info h1 span{
+    color: red;
+}
+
+#container #info button{
+    border: solid red 2px;
+    padding: 10px 30px;
+    margin-left: 30px;
+    border-radius: 180px;
+    background: transparent;
+}
+#container #img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
