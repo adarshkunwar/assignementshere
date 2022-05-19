@@ -54,6 +54,15 @@
     background-color: #fff;
 }
 
+#twitter i{
+    color: #1DA1F2;
+}
+
+#twitter button{
+    background-color: #1DA1F2;
+    border: none;
+}
+
 #twitter:hover{
     background-color: #1DA1F2;
 }
@@ -66,8 +75,13 @@
     background-color: #ff0000;
 }
 
+#twitter:hover i{
+     color: #fff;
+}
+
 #twitter:hover button{
-    color: #1DA1F2; 
+    background-color: white;
+     color: #1DA1F2;
 }
 
 #instagram:hover button{
